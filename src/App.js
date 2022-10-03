@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 
@@ -7,8 +7,8 @@ function App() {
   return (
     // JSX
     <>
-     
-      <Navbar title="1" aboutText="About TextUtils"/>
+
+      <Navbar title="1" aboutText="About TextUtils" />
 
     </>
   );
