@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #012264;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,19 +25,49 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #140258;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.blank{
-  color: royalblue;
+
+.blank {
+  color: rgb(2, 21, 77);
   font-size: 30px;
   font-weight: bold;
+}
+
+.primary {
+
+  padding: 3px 3px;
+  margin: 6px 6px;
+}
+
+button {
+  background-color: rgba(233, 9, 9, 0.916);
+  color: rgb(238, 241, 234);
+  font-size: 20px;
+  font-style: oblique;
+  margin: 12px 10px;
+}
+
+.cont {
+  margin: 30px 5px;
+  /* border-radius: 4px; */
+}
+
+.cont h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+ul li {
+  color: #c1bcd1;
 }
